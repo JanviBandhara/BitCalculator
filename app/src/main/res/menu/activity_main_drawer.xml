@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/menu_home" />
+    <item android:title="Operations">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_logicgate"
+                android:title="@string/menu_logicgate"/>
+            <item
+                android:id="@+id/nav_shift"
+                android:title="@string/menu_shift"/>
+        </menu>
+    </item>
+    <item android:title="Conversions">
+        <menu>
+            <item
+                android:id="@+id/nav_slideshow"
+                android:title="@string/menu_slideshow" />
+            <item
+                android:id="@+id/nav_binoperation"
+                android:title="@string/menu_binoperation"/>
+            <item
+                android:id="@+id/nav_octaloperation"
+                android:title="@string/menu_octaloperation"/>
+            <item
+                android:id="@+id/nav_hexoperation"
+                android:title="@string/menu_hexoperation"/>
+            <item
+                android:id="@+id/nav_stringoperation"
+                android:title="@string/menu_stringconversion"/>
+        </menu>
+    </item>
+</menu>

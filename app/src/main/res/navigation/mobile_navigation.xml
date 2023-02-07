@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bitcalculator.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.bitcalculator.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_logicgate"
+        android:name="com.example.bitcalculator.ui.logicgate.logicGate"
+        android:label="@string/menu_logicgate"
+        tools:layout="@layout/fragment_logicgate" />
+
+    <fragment
+        android:id="@+id/nav_shift"
+        android:name="com.example.bitcalculator.ui.shift.Shift"
+        android:label="@string/menu_shift"
+        tools:layout="@layout/fragment_shift" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.bitcalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_binoperation"
+        android:name="com.example.bitcalculator.ui.binaryoperations.BinaryFragment"
+        android:label="@string/menu_binoperation"
+        tools:layout="@layout/fragment_binaryConversion"/>
+
+    <fragment
+        android:id="@+id/nav_octaloperation"
+        android:name="com.example.bitcalculator.ui.octaloperation.OctalFragment"
+        android:label="@string/menu_octaloperation"
+        tools:layout="@layout/fragment_octaloperation"/>
+
+    <fragment
+        android:id="@+id/nav_hexoperation"
+        android:name="com.example.bitcalculator.ui.hexopeation.HexFragment"
+        android:label="@string/menu_hexoperation"
+        tools:layout="@layout/fragment_hexoperation"/>
+
+    <fragment
+        android:id="@+id/nav_stringoperation"
+        android:name="com.example.bitcalculator.ui.string.String"
+        android:label="@string/menu_stringconversion"
+        tools:layout="@layout/fragment_string"/>
+</navigation>

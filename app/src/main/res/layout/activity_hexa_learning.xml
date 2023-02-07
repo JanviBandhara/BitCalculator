@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hexa_learning">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Hexadecimal to Decimal Conversion"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/htod" />
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="23dp"
+                        android:layout_height="24dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_decimal_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_decimal_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_decimal_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Hexadecimal to Binary Conversion"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/htob" />
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="19dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"
+                        android:gravity="center">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_binary_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_binary_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_binary_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_binary_para4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Hexadecimal to Octal Conversion"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/htoo" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="21dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_octal_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_octal_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/hexa_octal_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

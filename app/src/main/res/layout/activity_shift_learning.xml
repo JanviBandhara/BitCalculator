@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shift_learning">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Difference between 1’s Compliment 2’s Compliment "
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/onesndtwos" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="23dp"
+                        android:layout_height="24dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/ones_twos_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/ones_twos_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="What is 1’s Complement in a Binary Number?"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/ones" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="19dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"
+                        android:gravity="center">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="20dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/ones_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/ones_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="What is 2’s Complement in a Binary Number?"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/toww" />
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="21dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/twos_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/twos_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/twos_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Right Shift Operation"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/right" />
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="21dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/right_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/right_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/right_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/right_para4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Left Shift Operation"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/left" />
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="21dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/left_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/left_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/left_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/left_para4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

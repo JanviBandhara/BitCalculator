@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Bit Calculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bit Calculator</string>
+    <!--string name="nav_header_subtitle">android.studio@android.com</string-->
+    <string name="nav_header_desc">Navigation header</string>
+    <!--string name="action_settings">Settings</string-->
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Binary Operation</string>
+    <string name="menu_logicgate">Logic Gates</string>
+    <string name="menu_shift">Complement &amp; Shift</string>
+    <string name="menu_slideshow">Decimal Conversion</string>
+    <string name="menu_binoperation">Binary Conversion</string>
+    <string name="menu_octaloperation">Octal Conversion</string>
+    <string name="menu_hexoperation">HexaDecimal Conversion</string>
+    <string name="menu_stringconversion">String Conversion</string>
+
+    <string name="binary_dec_para1">A binary number is a digital number that has base 2 and is used in computer applications.</string>
+    <string name="binary_dec_para2">It is represented by only two digits that are 1 and 0.</string>
+    <string name="binary_dec_para3">A decimal number is a number with base 10 and uses all the digits from 1 to 9. It is the most commonly used number system.</string>
+    <string name="binary_dec_para4">To convert a binary number into a decimal, we need to multiply each digit of binary number with decreasing order of exponents of 2 and add them all together.</string>
+
+    <string name="binary_oct_para1">In binary to octal conversion, we learn to convert base 2 number system into base 8 number system. </string>
+    <string name="binary_oct_para2">We cannot directly convert binary to octal, so we first convert binary to decimal, then the decimal number to the equivalent octal number system. </string>
+    <string name="binary_oct_para3">Binary numbers are commonly used in computers, in the form of bits and bytes, since the computer understand the language of 0 and 1 only.</string>
+    <string name="binary_oct_para4"> At the same time, octal numbers are used in electronics. Before going to the conversion, we have to learn about octal and binary numbers.</string>
+
+    <string name="binary_hex_para1">Hexadecimal numbers are represented by base 16</string>
+    <string name="binary_hex_para2">It uses 0 to 9 digits and for higher numbers it is represented by English alphabets such as A,B,C,D,E and F</string>
+    <string name="binary_hex_para3">To convert binary number to hexadecimal is an esay method</string>
+
+    <string name="decimal_oct_para1">"To convert decimal to octal, we have to learn about both the number systems first. "</string>
+    <string name="decimal_oct_para2">"A number with base 8 is the octal number and a number with base 10 is the decimal number."</string>
+    <string name="decimal_oct_para3">"Here we will convert a decimal number to an equivalent octal number."</string>
+    <string name="decimal_oct_para4">"It is the same as converting any decimal number to binary or decimal to hexadecimal."</string>
+
+    <string name="decimal_bin_para1">"In number system, decimal number system is the base 10 system. "</string>
+    <string name="decimal_bin_para2">"Binary number system is the base 2 number system. "</string>
+    <string name="decimal_bin_para3">"In this system, numbers are written as 0, 1 and the combination of 0’s and 1’s. "</string>
+    <string name="decimal_bin_para4">"Binary system is often used by computers for computing and interpreting the given inputs. "</string>
+
+    <string name="decimal_hex_para1">"Take decimal number as dividend."</string>
+    <string name="decimal_hex_para2">"Divide this number by 16 (16 is base of hexadecimal so divisor here)."</string>
+    <string name="decimal_hex_para3">"Store the remainder in an array (it will be: 0 to 15 because of divisor 16, replace 10, 11, 12, 13, 14, 15 by A, B, C, D, E, F respectively)."</string>
+    <string name="decimal_hex_para4">"Repeat the above two steps until the number is greater than zero."</string>
+
+    <string name="octal_dec_para1">Count the number of digits present in the given number. Let the number of digits be n</string>
+    <string name="octal_dec_para2">Now multiply each digit of the number with 8n-1, when the digit is in the nth position from the right end of the number. If the number has a decimal part, multiply each digit in the decimal part by 8n-1 when the digit is in the mth position from the decimal point.</string>
+    <string name="octal_dec_para3">Add all the terms after multiplication.</string>
+    <string name="octal_dec_para4">The obtained value is the equivalent decimal number.</string>
+
+    <string name="octal_bin_para1">In order to convert octal to binary number, we have to follow a few steps. Octal number have base 8 and binary numbers have base 2</string>
+    <string name="octal_bin_para2">We can convert the octal number into decimal and then convert the decimal numb into its equivalent binary number.</string>
+    <string name="octal_bin_para3">Also, we can remember the octal to the bina equivalent table to do the quick conversion.</string>
+    <string name="octal_bin_para4">Before we learn the conversion method, let learn about both the number systems.</string>
+
+    <string name="octal_hex_para1">Hexadecimal numbers consist of numbers a alphabets. It is represented with base 16.</string>
+    <string name="octal_hex_para2">The numbers from 0–9 are represented in th usual form, but from 10 to 15, it is denoted a A, B, C, D, E, F.</string>
+    <string name="octal_hex_para3">Conversion of the octal number to hexadecimal requires two steps.</string>
+    <string name="octal_hex_para4">First, convert octal number to decimal number. Then, convert decimal number to hexadecimal number.</string>
+
+    <string name="hexa_decimal_para1">"The base of a hexadecimal system is 16. "</string>
+    <string name="hexa_decimal_para2">"The 16 symbols involved in this system include 10 decimal digits and the first six letters of the English alphabet, i.e. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. "</string>
+    <string name="hexa_decimal_para3">"Here, the alphabets can be treated 10, 11, 12, 13, 14 and 15, respectively. Learn more about the hexadecimal system here."</string>
+
+    <string name="hexa_binary_para1">"Convert hexadecimal to binary is a conversion of a number in a hexadecimal number system to an equivalent number in the binary number system."</string>
+    <string name="hexa_binary_para2">"The binary number system is a widely used number system. Its main application is its usage in computers."</string>
+    <string name="hexa_binary_para3">"To convert a hexadecimal value to binary, each digit is converted to 4-bit binary and then all conversions are simply concatenated. "</string>
+    <string name="hexa_binary_para4">"In a 4-bit binary code, all the place values are added with a 1 on it, or multiplied by 8421 with its aligned value."</string>
+
+    <string name="hexa_octal_para1">"Convert the hexadecimal number into binary and then convert the binary into octal."</string>
+    <string name="hexa_octal_para2">"In order to convert the hexadecimal number into binary, we need to express every hexadecimal value using 4 binary bits."</string>
+    <string name="hexa_octal_para3">"In order to convert the binary number into octal, we need to group every 3 binary bits and calculate the value[From left to right]."</string>
+
+    <string name="ones_twos_para1">"We generally deploy Complements in digital computers for the manipulation of logic and for simplifying the subtraction operation."</string>
+    <string name="ones_twos_para2">"In the case of a base-2 (Binary Number) system, we can find two major types of these complements: the 1’s and the 2’s complement. In this article, we will discuss the difference between 1’s complement representation and 2’s complement representation technique. Let us first understand more about each of these individually."</string>
+
+    <string name="ones_para1">"In this case, a simple algorithm converts a binary number into the 1’s complement. "</string>
+    <string name="ones_para2">"If you want to generate 1’s complement out of a binary number, you can simply invert the number that you have."</string>
+
+    <string name="twos_para1">"In this case, too, we use a very simple algorithm for converting a binary number into a complement of 2’s."</string>
+    <string name="twos_para2">"if you want to get a 2’s complement for any given binary number, you need to invert the number first. "</string>
+    <string name="twos_para3">"Then you can add 1 to the LSB (least significant bit) of the obtained result"</string>
+
+    <string name="right_para1">"The Right Shift Operator moves the bits of a number a given number of places to the right. "</string>
+    <string name="right_para2">"The >> sign represents the right shift operator, which is understood as double greater than."</string>
+    <string name="right_para3">"When you type x>>n, you tell the computer to move the bits x to the right n places."</string>
+    <string name="right_para4">"When we shift a number to the right, the least significant bits (rightmost) are deleted, and the sign bit is filled in the most considerable place (leftmost)."</string>
+
+    <string name="left_para1">"When the value of a number is shifted to the left two places, the leftmost two bits are lost."</string>
+    <string name="left_para2">"The number has a value of two. 0010 is the binary representation of the number 2. "</string>
+    <string name="left_para3">"In the following example, the method for doing a left shift is explained:"</string>
+    <string name="left_para4">"In the example above, the binary number 0010 (in decimal 2) becomes 1000 after shifting the bits to the left (in decimal 8)."</string>
+
+</resources>

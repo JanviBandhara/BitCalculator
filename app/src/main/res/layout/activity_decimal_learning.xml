@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Decimal_learning">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:text="Decimal to Octal Conversion"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/dtoo" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="19dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"
+                        android:gravity="center">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_oct_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_oct_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_oct_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_oct_para4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Decimal to Binary Conversion"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/dtob" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="23dp"
+                        android:layout_height="24dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_bin_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_bin_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_bin_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_bin_para4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:text="Decimal to Hexadecimal Conversion"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.375"
+                    app:srcCompat="@drawable/dtoh" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="21dp"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_hex_para1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_hex_para2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_hex_para3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@drawable/circle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:letterSpacing="0.1"
+                        android:padding="10dp"
+                        android:text="@string/decimal_hex_para4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
